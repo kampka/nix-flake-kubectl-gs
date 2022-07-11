@@ -2,9 +2,9 @@
 
 pkgs.buildGoModule rec {
   pname = "kubectl-gs";
-  version = "2.15.0";
+  version = "2.18.0";
 
-  vendorSha256 = "sha256-R+DbrP4wriIE2szTVzEyULsEKiQsPTSIGBLmZim8Wc8=";
+  vendorSha256 = "sha256-C5qtZofxQrW7K6tUW3FuVlcjtefLgjFQzqt7VyIbvUA=";
 
   doCheck = false;
 
@@ -14,7 +14,7 @@ pkgs.buildGoModule rec {
     owner = "giantswarm";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-IuAkWgufunvpQzym/7IL+tJd94vemRUadV60jYqEmac=";
+    sha256 = "sha256-clTUEhpBwo7MErbWxiExLI75apraSwn9LL34jFaW/jQ=";
   };
 
   postFixup = ''
